@@ -23,8 +23,6 @@ end
 file = File.new(file_name)
 
 begin
-  # Пробуем считать содержимое файла с помощью библиотеки rexml. Создаем новый
-  # объект класса REXML::Document, построенный из открытого XML файла.
   doc = REXML::Document.new(file)
 rescue REXML::ParseException => e
   # Если при чтении файла словили ошибку парсинга, выходим из программы, сообщив

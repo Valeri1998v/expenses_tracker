@@ -60,7 +60,6 @@ expense = expenses.add_element 'expense', {
 
 expense.text = expense_text
 
-# файлике с отступами в два пробела.
 file = File.new(file_name, 'w:UTF-8')
 doc.write(file, 2)
 file.close

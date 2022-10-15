@@ -24,7 +24,6 @@ if date_input == ''
   # Если пользователь ничего не ввёл, значит он потратил деньги сегодня. Создаем
   expense_date = Date.today
 else
-  # Если ввел, попробуем распарсить его ввод
   begin
     expense_date = Date.parse(date_input)
   rescue ArgumentError

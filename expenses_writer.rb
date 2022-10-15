@@ -50,9 +50,6 @@ end
 
 file.close
 
-# Добавим трату в нашу XML-структуру в переменной doc
-
-# Для этого найдём элемент expenses (корневой)
 expenses = doc.elements.find('expenses').first
 
 # И добавим элемент командой add_element. Все аттрибуты пропишем с помощью

@@ -35,7 +35,6 @@ else
   end
 end
 
-# Наконец, спросим категорию траты
 puts 'В какую категорию занести трату'
 expense_category = STDIN.gets.chomp
 

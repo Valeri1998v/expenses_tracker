@@ -58,7 +58,6 @@ expense = expenses.add_element 'expense', {
   'date' => expense_date.strftime('%Y.%m.%d') # or Date#to_s
 }
 
-# А содержимое элемента меняется вызовом метода-сеттера text=
 expense.text = expense_text
 
 # Осталось только записать новую XML-структуру в файл методов write. В качестве

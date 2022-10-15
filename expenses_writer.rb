@@ -16,7 +16,6 @@ expense_text = STDIN.gets.chomp
 puts 'Сколько потратили?'
 expense_amount = STDIN.gets.to_i
 
-# Спросим у пользователя, когда он потратил деньги
 puts 'Укажите дату траты в формате ДД.ММ.ГГГГ, например 12.05.2003 ' \
   '(пустое поле - сегодня)'
 date_input = STDIN.gets.chomp

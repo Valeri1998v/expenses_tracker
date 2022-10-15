@@ -26,7 +26,7 @@ else
   begin
     expense_date = Date.parse(date_input)
   rescue ArgumentError
-    # Если дата введена неправильно, перехватываем исключение и все равно
+
    
     expense_date = Date.today
   end

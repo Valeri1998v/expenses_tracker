@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='UTF-8'?> 
 <expenses>
   <expense date='9.7.2015' category='Образование' amount='900'>
      Книжка по Ruby on Rails 
@@ -10,6 +10,9 @@
      Софтбокс + штатив 
   </expense>
   <expense amount='418' category='красота' date='2022.06.18'>
-    весы
+     весы 
+  </expense>
+  <expense amount='0' category='sdfasdgf' date='2022.07.20'>
+    fsefsdf
   </expense>
 </expenses>

@@ -44,7 +44,6 @@ doc = nil
 begin
   doc = REXML::Document.new(file)
 rescue REXML::ParseException => error
-  # Если парсер ошибся при чтении файла, придется закрыть прогу :(
   puts 'XML файл похоже битый :('
   abort error.message
 end

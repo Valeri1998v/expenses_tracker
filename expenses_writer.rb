@@ -60,7 +60,6 @@ expense = expenses.add_element 'expense', {
 
 expense.text = expense_text
 
-# Осталось только записать новую XML-структуру в файл методов write. В качестве
 # параметра методу передаётся указатель на файл. Красиво отформатируем текст в
 # файлике с отступами в два пробела.
 file = File.new(file_name, 'w:UTF-8')

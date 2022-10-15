@@ -53,7 +53,7 @@ file.close
 expenses = doc.elements.find('expenses').first
 
 # И добавим элемент командой add_element. Все аттрибуты пропишем с помощью
-# параметра, передаваемого в виде ассоциативного массива.
+
 expense = expenses.add_element 'expense', {
   'amount' => expense_amount,
   'category' => expense_category,

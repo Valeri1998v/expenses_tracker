@@ -35,8 +35,6 @@ end
 puts 'В какую категорию занести трату'
 expense_category = STDIN.gets.chomp
 
-# Сначала получим текущее содержимое файла. И построим из него XML-структуру в
-
 current_path = File.dirname(__FILE__)
 file_name = current_path + '/my_expenses.xml'
 

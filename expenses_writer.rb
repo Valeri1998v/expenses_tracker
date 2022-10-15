@@ -11,7 +11,6 @@ end
 require 'rexml/document'
 require 'date'
 
-# Спросим у пользователя, на что он потратил деньги и сколько
 puts 'На что потратили деньги?'
 expense_text = STDIN.gets.chomp
 
